@@ -1,0 +1,111 @@
+/* bagian login */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2{
+  text-align:center;
+
+}
+/* container utama */
+.login-container{
+ width: 100%;
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+/* Box login */
+.login-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* bagian input */
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:5px;
+    font-size:14px;
+    color: #555;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+.input-group input:focus{
+    border-color: #4e73df;
+    outline: none;
+    box-shadow: 0 0 5px rgba(78, 115, 223, 0.5);
+}
+
+
+/* Button */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #4e73df;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.btn-login:hover {
+    background-color: #2e59d9;
+}
+
+.cancelbtn {
+    width: 100%;
+    text-align: center;
+    display:block;
+    padding:10px;
+    background-color:#ad4b4b;
+    color:#ffffff;
+    text-decoration: none;
+    border:none;
+    border-radius: 10px;  
+
+}
+.cancelbtn:hover {
+  background-color: #a06d60;
+  opacity: 0.8;
+}
