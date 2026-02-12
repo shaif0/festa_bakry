@@ -89,7 +89,7 @@ h1{
 }
 
 .card {
-    background: white;
+    background: rgb(212, 205, 171);
     padding: 15px;
     border-radius: 10px;
     box-shadow: none;
@@ -115,4 +115,3 @@ button:hover {
     background: #e68900;
 	 opacity: 0.8;
 }
-
